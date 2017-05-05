@@ -1,0 +1,99 @@
+/*Universals Section*/
+.text-center{
+    text-align: center;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+/* Header section begins here */
+header {
+    background-color:#229922;
+    position: relative;
+}
+
+header h1 {
+    color: white;
+    float: left;
+    margin: 10px;
+}
+
+header img{
+    height: 100px;
+}
+
+nav{
+    float: right;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+}
+nav>ul {
+    color: white;
+    list-style-type: none;
+    margin: 0px;
+    display: inline;
+}
+
+nav>ul>li {
+    display: inline;
+    margin: 0px 10px;
+    padding: 10px;
+    border:2px solid #fff;
+    border-radius:5px 5px 0 0;
+}
+
+nav>ul>li>a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+/*HERO SECTION*/
+.hero{
+    background-image: url("../img/almonds-cup.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1{
+    margin-top: 0px;
+    color: #fff;
+    
+}
+/* ASIDE SECTION */
+aside{
+    width: 30%;
+    background-color: #000066;
+    float: left;
+    height: 400px;
+}
+aside ul{
+    list-style-type: none;
+    padding: 0;
+}
+aside ul li{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px;
+    color: #fff;
+    transition: 0.9s;
+}
+aside ul li:hover {
+    background-color: yellow;
+    color: #000066;
+}
+
+
+.content {
+    height: 400px;
+    background-color: blue;
+    
+}
+
+.content p {
+    margin: 0;
+    
+}
